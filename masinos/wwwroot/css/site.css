@@ -1,7 +1,7 @@
 #container {
     display: grid;
-    grid-template-columns: repeat(13,10%);
-    grid-template-rows: repeat(10,10%);
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(10, 10%);
 }
 
 #form_select {
@@ -23,6 +23,11 @@
     grid-row: 6/8;
     grid-column: 4/8;
 }
+
+    #car_display img {
+        object-fit: cover;
+        width: 100%;
+    }
 
 img {
     max-width: 100%;
