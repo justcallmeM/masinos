@@ -1,0 +1,154 @@
+﻿{
+  "ListedCars": [
+    {
+      "Size": "default",
+      "Form": "default",
+      "Usage": "default",
+      "ImagePath": "/cars/default.jpg"
+    },
+    {
+      "Size": "Labai didelė",
+      "Form": "Graži",
+      "Usage": "Dažnai",
+      "ImagePath": "/cars/1.jpg"
+    },
+    {
+      "Size": "Maža",
+      "Form": "Graži",
+      "Usage": "Kartais",
+      "ImagePath": "/cars/2.jpg"
+    },
+    {
+      "Size": "Labai maža",
+      "Form": "Graži",
+      "Usage": "Kartais",
+      "ImagePath": "/cars/3.jpg"
+    },
+    {
+      "Size": "Normali",
+      "Form": "Graži",
+      "Usage": "Kartais",
+      "ImagePath": "/cars/4.jpg"
+    },
+    {
+      "Size": "Labai didelė",
+      "Form": "Daužta",
+      "Usage": "Dažnai",
+      "ImagePath": "/cars/5.jpg"
+    },
+    {
+      "Size": "Maža",
+      "Form": "Daužta",
+      "Usage": "Kartais",
+      "ImagePath": "/cars/6.jpg"
+    },
+    {
+      "Size": "Labai maža",
+      "Form": "Daužta",
+      "Usage": "Kartais",
+      "ImagePath": "/cars/7.jpg"
+    },
+    {
+      "Size": "Normali",
+      "Form": "Daužta",
+      "Usage": "Kartais",
+      "ImagePath": "/cars/8.jpg"
+    },
+    {
+      "Size": "Labai didelė",
+      "Form": "Bjauri",
+      "Usage": "Dažnai",
+      "ImagePath": "/cars/9.jpg"
+    },
+    {
+      "Size": "Maža",
+      "Form": "Bjauri",
+      "Usage": "Kartais",
+      "ImagePath": "/cars/10.jpg"
+    },
+    {
+      "Size": "Labai maža",
+      "Form": "Bjauri",
+      "Usage": "Kartais",
+      "ImagePath": "/cars/11.jpg"
+    },
+    {
+      "Size": "Normali",
+      "Form": "Bjauri",
+      "Usage": "Kartais",
+      "ImagePath": "/cars/12.jpg"
+    },
+    {
+      "Size": "Labai didelė",
+      "Form": "Paprasta",
+      "Usage": "Dažnai",
+      "ImagePath": "/cars/13.jpg"
+    },
+    {
+      "Size": "Maža",
+      "Form": "Paprasta",
+      "Usage": "Kartais",
+      "ImagePath": "/cars/14.jpg"
+    },
+    {
+      "Size": "Labai maža",
+      "Form": "Paprasta",
+      "Usage": "Kartais",
+      "ImagePath": "/cars/15.jpg"
+    },
+    {
+      "Size": "Normali",
+      "Form": "Paprasta",
+      "Usage": "Kartais",
+      "ImagePath": "/cars/16.jpg"
+    },
+    {
+      "Size": "Labai didelė",
+      "Form": "Paprasta",
+      "Usage": "Retai",
+      "ImagePath": "/cars/17.jpg"
+    },
+    {
+      "Size": "Maža",
+      "Form": "Paprasta",
+      "Usage": "Retai",
+      "ImagePath": "/cars/18.jpg"
+    },
+    {
+      "Size": "Labai maža",
+      "Form": "Paprasta",
+      "Usage": "Retai",
+      "ImagePath": "/cars/19.jpg"
+    },
+    {
+      "Size": "Normali",
+      "Form": "Paprasta",
+      "Usage": "Retai",
+      "ImagePath": "/cars/20.jpg"
+    },
+    {
+      "Size": "Labai didelė",
+      "Form": "Paprasta",
+      "Usage": "Kartais",
+      "ImagePath": "/cars/21.jpg"
+    },
+    {
+      "Size": "Maža",
+      "Form": "Paprasta",
+      "Usage": "Dažnai",
+      "ImagePath": "/cars/22.jpg"
+    },
+    {
+      "Size": "Labai maža",
+      "Form": "Paprasta",
+      "Usage": "Dažnai",
+      "ImagePath": "/cars/23.jpg"
+    },
+    {
+      "Size": "Normali",
+      "Form": "Paprasta",
+      "Usage": "Dažnai",
+      "ImagePath": "/cars/24.jpg"
+    }
+  ]
+}

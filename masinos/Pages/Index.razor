@@ -1,0 +1,72 @@
+﻿@using masinos.Data
+@inject CarService CarService
+@inject IJSRuntime jsruntime
+@page "/"
+
+<div id="container">
+    <select @onchange=@FormChosen id="form_select">
+        @foreach (string option in options.Form)
+        {
+            <option value="@option">@option</option>
+        }
+    </select>
+
+    <select @onchange=@SizeChosen id="size_select">
+        @foreach (string option in options.Size)
+        {
+            <option value="@option">@option</option>
+        }
+    </select>
+
+    <select @onchange=@UsageChosen id="usage_select">
+        @foreach (string option in options.Usage)
+        {
+            <option value="@option">@option</option>
+        }
+    </select>
+
+    <img src="@chosenCar" id="car_display" />
+</div>
+
+
+@code{
+
+    Options options { get; set; }
+
+    string chosenCar { get; set; }
+
+    string value { get; set; }
+
+    private Car car { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        options = await CarService.GetOptions();
+
+        car = new Car() { Form = "default", Size = "default", Usage = "default" };
+
+        chosenCar = await CarService.GetCar(car.Form, car.Size, car.Usage);
+    }
+
+    public async Task FormChosen(ChangeEventArgs e)
+    {
+        car.Form = e.Value.ToString();
+
+        chosenCar = await CarService.GetCar(car.Form, car.Size, car.Usage);
+    }
+
+    public async Task SizeChosen(ChangeEventArgs e)
+    {
+        car.Size = e.Value.ToString();
+
+        chosenCar = await CarService.GetCar(car.Form, car.Size, car.Usage);
+    }
+
+    public async Task UsageChosen(ChangeEventArgs e)
+    {
+        car.Usage = e.Value.ToString();
+
+        chosenCar = await CarService.GetCar(car.Form, car.Size, car.Usage);
+    }
+
+}

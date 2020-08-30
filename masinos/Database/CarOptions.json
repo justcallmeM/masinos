@@ -1,0 +1,25 @@
+﻿{
+  "Options": {
+    "Form": [
+      "default",
+      "Daužta",
+      "Graži",
+      "Bjauri",
+      "Paprasta"
+    ],
+    "Size": [
+      "default",
+      "Labai maža",
+      "Maža",
+      "Normali",
+      "Didelė",
+      "Labai didelė"
+    ],
+    "Usage": [
+      "default",
+      "Dažnai",
+      "Kartais",
+      "Retai"
+    ]
+  }
+}
